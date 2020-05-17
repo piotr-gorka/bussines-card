@@ -11,7 +11,7 @@ body {
   background: #2c2141;
 }
 .main {
-  width: 624px;
+  max-width: 624px;
   background: #f8f8f8;
   border-radius: 16px;
   margin: 0 auto;
@@ -19,9 +19,9 @@ body {
 }
 .person {
   display: flex;
-  
-  
+
 }
+
 .person__info {
   line-height: 41px;
   margin-bottom: 24px;
@@ -45,8 +45,11 @@ body {
   margin: 0;
 }
 .person__photo {
-  margin: 32px;
- 
+  margin-right: 32px;
+  width: 148px;
+  height: 148px;
+  border-radius: 72px;
+  
 }
 .person__description {
   line-height: 22px;
